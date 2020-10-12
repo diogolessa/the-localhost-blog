@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gatsby develop -p 9988 -o"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.18",
+    "@mdx-js/react": "^1.6.18",
     "gatsby": "^2.24.73",
+    "gatsby-plugin-mdx": "^1.2.46",
+    "gatsby-source-filesystem": "^2.3.34",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
