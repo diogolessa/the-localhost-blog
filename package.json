@@ -12,10 +12,13 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.18",
     "@mdx-js/react": "^1.6.18",
+    "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.73",
     "gatsby-plugin-mdx": "^1.2.46",
+    "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.34",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
   }
 }
