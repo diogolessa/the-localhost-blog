@@ -4,7 +4,7 @@ import { useSiteMetadata } from "../hooks/useSiteMetadata";
 import { Header } from "./Header";
 
 const AppStyled = styled.main`
-  width: 800px;
+  width: 540px;
   margin: 0 auto;
 `;
 export const Layout = ({ children }) => {
