@@ -11,7 +11,7 @@ const components = {
     if (props.mdxType === "code") {
       const matches = props.className.match(/language-(?<lang>.*)/);
       const lang = matches?.groups?.lang;
-      return <Code code={props.children.trim()} lang={lang} />;
+      return <Code code={props.children.trim()} lang={lang} {...props} />;
     }
   },
 };
