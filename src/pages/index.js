@@ -31,11 +31,10 @@ export default ({ data }) => {
         title={title}
         description={description || 'nothing'}
         image={`${siteUrl}${image}`}
-        siteUrl={siteUrl}
+        pathname={siteUrl}
         siteLanguage={siteLanguage}
         siteLocale={siteLocale}
         twitterUsername={twitterUsername}
-        authorName={authorName}
       />
       <IndexWrapper>
         {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
@@ -66,7 +65,7 @@ export const query = graphql`
         excerpt(pruneLength: 250)
         frontmatter {
           title
-          date(formatString: "YYYY MM DD")
+          date(formatString: "MMMM Do, YYYY")
           cover {
             publicURL
             childImageSharp {
