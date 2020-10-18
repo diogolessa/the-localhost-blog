@@ -2,7 +2,7 @@ const siteMetadata = {
   title: "The localhost blog",
   description: "This is my coding blog",
   image: '/default-site-image.jpg',
-  siteUrl: 'https://diogolessa.com',
+  siteUrl: 'https://diogolessa-blog.netlify.app',
   siteLanguage: 'en-GB',
   siteLocale: 'en_gb',
   twitterUsername: '@ant1_pattern',
